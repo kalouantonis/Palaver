@@ -25,3 +25,6 @@ bin
 #Python bytecode
 *.pyc
 *.pyo
+
+# Swap files
+*.swp

@@ -2,6 +2,7 @@
 
 struct options *newOpts() {
   struct options *ret = (struct options*)Malloc(sizeof(struct options));
+
   ret->filename = NULL;
   ret->buffer = NULL;
   ret->speech = NULL;

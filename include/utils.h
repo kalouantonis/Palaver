@@ -10,7 +10,13 @@
 #include <errno.h>
 #include <string.h>
 
-void error(const char* msg);
+#define TRUE 1
+#define FALSE 0
+#define BOOL int8_t
+
+void print_error(const char* msg);
+void fatalerror(const char* msg);
+
 void* Malloc(size_t size);
 
 
