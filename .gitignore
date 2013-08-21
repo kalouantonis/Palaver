@@ -1,6 +1,12 @@
 # Object files
 *.o
 
+# Object dir
+obj/
+
+# Binaries
+bin
+
 # Libraries
 *.lib
 *.a
